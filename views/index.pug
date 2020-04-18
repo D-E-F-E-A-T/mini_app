@@ -1,0 +1,31 @@
+html  
+    head
+        title This is my first Pug file
+    body
+    each val in data
+        li 
+            div = val.nome
+            div = val.categoria
+    br
+    br
+
+    form(action="/", method="post")
+
+        label Nome:
+        input(
+            type="text"
+            name="nome"
+            required
+
+        )
+        label Categoria:
+        select(name="categoria" required)
+            option Back-End
+            option Desenvolvimento de jogos
+            option Front-End 
+            option Mobile
+        input(
+            type="submit"
+            value="enviar"
+        )       
+
