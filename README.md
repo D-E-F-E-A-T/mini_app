@@ -8,5 +8,6 @@ Data:09/02/2020
   <li> Algumas depencias estão desatualizadas </li>
   <li> Banco:MongoDB </li>
   <li> Infra: Docker </li>
+  <li> Testes: Postman </li>
   <li> Front-End: Pug Engine <3 </li>
 </ul>
